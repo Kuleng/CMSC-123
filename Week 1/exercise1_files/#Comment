@@ -1,0 +1,11 @@
+#Comment
+
+Code not perfect.
+
+Main algorith (else part) won't catch
+instances wherein the insertAt function calls the last element of a function. 
+
+Was only looped until length-1 but it needed to loop until length for it to work in stack and queue algorithms,
+
+
+had segmentation fault because it cannot access the top of the stack and element to be dequeued.
